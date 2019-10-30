@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SpringBatchLoader
+  batch:
+    job:
+      enabled: false
+  profiles:
+    active:
+
+# application specific properties
+
+application:
+  batch:
+    inputPath: c:/demo/data
