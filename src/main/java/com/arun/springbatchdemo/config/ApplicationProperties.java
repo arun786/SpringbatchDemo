@@ -10,10 +10,13 @@ public class ApplicationProperties {
 
     private final Batch batch = new Batch();
 
-    @Getter
     @Setter
-    private class Batch{
+    public class Batch{
         private String inputPath = "c:/input";
+
+        public String getInputPath(){
+            return inputPath;
+        }
 
     }
 }
